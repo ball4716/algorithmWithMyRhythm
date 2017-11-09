@@ -26,7 +26,7 @@ public class Solution_1697 {
 			countMap[k] = 1;
 		}else {
 			while(!q.isEmpty()) {
-				int curPos = q.poll();
+				int curPos = q.poll();//현재 위치 받기
 				for(int i = 0; i < dir.length; i++) {
 					int nextPos = 0;
 					if(i != 2) {
